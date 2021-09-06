@@ -15,3 +15,6 @@
 * **Frameworks and Libraries:** React, Redux, bootstrap, Material UI
 
 * **Tools:** GIT, Webpack, VS Code, Webstorm
+## About me
+Novice frontend-developer with technical education. Confident knowledge of HTML, CSS/SCSS,
+JavaScript, React, Redux.
