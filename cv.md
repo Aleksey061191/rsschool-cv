@@ -18,3 +18,10 @@
 ## About me
 Novice frontend-developer with technical education. Confident knowledge of HTML, CSS/SCSS,
 JavaScript, React, Redux.
+## Code Examples
+```
+arr3.forEach(item => {if ( typeof item === 'string'){console.log(item + ' - string value');}
+                     else {console.log(item + ' - number value');}
+                    }
+            );
+```
