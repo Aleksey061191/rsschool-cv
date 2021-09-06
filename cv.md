@@ -51,3 +51,9 @@ Environment: HTML, CSS, JavaScript, React.
 Promo site - https://github.com/Aleksey061191/Final_project
 
 Flexbox
+## Education:
+ * [IT-SHATLE](https://it-shatle.by/)
+
+ * Belarusian National Technical University, Minsk, Belarus
+
+Specialist (Bachelor Degree) – Engineer (Engineer-technologist, Engineer-constructor )
