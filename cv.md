@@ -25,3 +25,29 @@ arr3.forEach(item => {if ( typeof item === 'string'){console.log(item + ' - stri
                     }
             );
 ```
+## Projects:
+* #### Tag list (2021)
+Project: https://github.com/Aleksey061191/Taglist
+
+Position: developer
+
+Environment: HTML, CSS, JavaScript.
+
+* #### Users list (2021)
+Project: https://github.com/Aleksey061191/Users_list
+
+Position: developer
+
+Environment: HTML, CSS, JavaScript, React.
+
+* #### The Movie Database Api (2021)
+Project: https://github.com/Aleksey061191/API
+
+Position: developer
+
+Environment: HTML, CSS, JavaScript, React.
+
+* #### Website markup (2020-2021)
+Promo site - https://github.com/Aleksey061191/Final_project
+
+Flexbox
