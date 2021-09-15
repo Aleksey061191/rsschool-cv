@@ -66,32 +66,21 @@ a {
   background-color: var(--dark-gray-color);
 }
 
-.aside .contacts h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .aside li {
   margin-bottom: 10px;
 }
 
-.contacts li img {
-  vertical-align: middle;
-  margin-right: 5px;
-}
-
-.contacts li p {
+/* .contacts li p {
   display: inline;
   vertical-align: middle;
-}
+} */
 
 .contacts a {
   color: var(--dark-gray-color);
 }
 
-.aside :not(.contacts) ul {
-  list-style-type: disc;
-  margin-left: 50px;
+.aside .contacts a:hover {
+  color: black;
 }
 
 .main {
