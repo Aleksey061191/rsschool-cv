@@ -179,6 +179,13 @@ a {
   margin-bottom: 30px;
 }
 
+.code-example {
+  line-height: 30px;
+}
+pre {
+  margin: 0;
+}
+
 .divider-black {
     display: block;
     height: 2px;
