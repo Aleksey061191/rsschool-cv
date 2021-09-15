@@ -94,16 +94,32 @@ a {
     margin-bottom: 30px;
 }
 
-.education .education-ul li p {
+.education .education-ul li  {
   margin-left: 5px;
 }
 
-.education .education-ul p strong {
-  font-weight: 600;
+.education .education-ul strong {
+  font-weight: 500;
 }
 
 .education .education-ul a:hover {
   color: #8898a7;
+}
+
+.education .education-ul li:last-of-type {
+  margin-bottom: 30px;
+}
+
+.projects .projects-ul li {
+  margin-left: 5px;
+}
+
+.projects .projects-ul a:hover {
+  color: #8898a7;
+}
+
+.projects .projects-ul li:last-of-type {
+  margin-bottom: 30px;
 }
 
 .divider-black {
