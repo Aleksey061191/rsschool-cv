@@ -56,7 +56,7 @@ a {
 }
 
 .aside h3 {
-  width: 136px;
+  width: 150px;
   margin: 40px auto 20px;
   padding: 5px 5px;
   text-align: center;
@@ -70,17 +70,27 @@ a {
   margin-bottom: 10px;
 }
 
-/* .contacts li p {
-  display: inline;
-  vertical-align: middle;
-} */
-
 .contacts a {
   color: var(--dark-gray-color);
 }
 
 .aside .contacts a:hover {
   color: black;
+}
+
+.language-name {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.languages li p {
+  margin: 0;
+  padding: 0;
+}
+
+.language-name {
+  margin: 0;
+  padding: 0;
 }
 
 .main {
