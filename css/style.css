@@ -1,22 +1,29 @@
 html, body {
     margin: 0;
     padding: 0;
-  }
+}
   
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-  }
+}
 
 :root {
     --dark-gray-color: #505050;
     --ligth-gray-color: #777777;
     --pink-color: #817978;
-  }
+}
   
 body {
     background-color: #757575;
-  }
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #2d2d2d;
+  margin-bottom: 12px;
+}
 
 .container {
     margin: 30px auto;
@@ -84,10 +91,22 @@ body {
 }
   
 .about-me p:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
-.divider_black {
+.education .education-ul li p {
+  margin-left: 5px;
+}
+
+.education .education-ul p strong {
+  font-weight: 600;
+}
+
+.education .education-ul a:hover {
+  color: #8898a7;
+}
+
+.divider-black {
     display: block;
     height: 2px;
     background-color: #2d2d2d;
