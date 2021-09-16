@@ -2,28 +2,65 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rsschool-cv-html</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rsschool-cv-html</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="container">
-        <div class="colums">
-            <main class="main">
-                <header class="header">
+        <header class="header">
+            <div class="burger-btn">
+                <span class="burger-btn-row"></span>
+                <span class="burger-btn-row"></span>
+                <span class="burger-btn-row"></span>
+            </div>
+            <div class="header-left">
+                <nav class="header-menu">
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item">
+                            <a href="#about-me" class="header-menu-link">About me</a>
+                            <div class="divider-link"></div>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#code" class="header-menu-link">Code</a>
+                            <div class="divider-link"></div>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#projects" class="header-menu-link">Projects</a>
+                            <div class="divider-link"></div>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#skills" class="header-menu-link">Skills</a>
+                            <div class="divider-link"></div>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#contacts" class="header-menu-link">Contacts</a>
+                            <div class="divider-link"></div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-name">
                     <div class="name">
                         <span>Makarenka  </span>   Aliaksei
                     </div>
                     <div class="prof">
                         future front-end developer
                     </div>
-                </header>
+                </div>
+            </div>
+            <div class="header-photo"><img src="./img/photo.jpg" alt="Photo"></div>
+        </header>
+        <div class="colums">
+            <main class="main">
                 <div class="main-wraper">
-                    <section class="about-me">
+                    <section class="about-me" id="about-me">
                         <div class="sub-header">
                             <img src="./icons/person.svg" alt="About Me Icon" width="30" height="30">
                             <h3>About Me</h3>
@@ -45,7 +82,7 @@
                             <li><strong><a href="https://it-shatle.by/" target="_blank">IT-SHATLE</a></strong></li>
                         </ul>
                     </section>
-                    <section class="projects">
+                    <section class="projects" id="projects">
                         <div class="sub-header">
                             <img src="./icons/edit.svg" alt="About Me Icon" width="30" height="30">
                             <h3>Projects</h3>
@@ -58,26 +95,25 @@
                             <li><a href="https://github.com/Aleksey061191/Final_project/" target="_blank">Website markup (2020-2021)</a></li>
                         </ul> 
                     </section>
-                    <section class="code-example">
+                    <section class="code-example" id="code">
                         <div class="sub-header">
                           <img src="./icons/code-slash.svg" alt="Code Icon" width="30" height="30">
                           <h3>Code example</h3>
                         </div>
                         <div class="divider-black"></div>
                         <pre>
-                          <code>
-    arr3.forEach(item => {if ( typeof item === 'string')
-            {console.log(item + ' - string value');}
-            else {console.log(item + ' - number value');}
-        });
+                          <code class="html">
+  arr3.forEach(item => {if ( typeof item === 'string')
+        {console.log(item + ' - string value');}
+        else {console.log(item + ' - number value');}
+    });
                             </code>
                         </pre>
                       </section>
                 </div> 
             </main>
-            <aside class="aside">
-                <div class="aside-photo"><img src="./img/photo.jpg" alt="Photo"></div> 
-                <section class="contacts">
+            <aside class="aside"> 
+                <section class="contacts" id="contacts">
                     <h3>Contacts</h3>
                     <ul>
                         <li><p>+375 44 746-61-60</p></li>
@@ -86,7 +122,7 @@
                         <li><a href="https://www.linkedin.com/in/aliaksei-makarenka-1a9991212/">LinkedIn</a></li>
                     </ul>
                 </section>
-                <section class="skills">
+                <section class="skills" id="skills">
                     <h3>Skills</h3>
                     <ul>
                       <li>JavaScript, HTML5, CSS/SCSS</li>
