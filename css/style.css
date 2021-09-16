@@ -361,14 +361,15 @@ footer .github-icon {
 
   .header-menu {
     position: absolute;
-    left: -50%; 
-    width: 50%;
-    transition: 1s left ease-in-out;
-    
+    top: -65%;
+    left: 0; 
+    width: 30%;
+    transition: 1s top ease-in-out;
+    background-color: white;
   }
 
-  .header-menu_active {
-    left: 0%;
+  .header-menu-active {
+    top: -5%;
   }
 
   .header-menu-list {
@@ -412,20 +413,8 @@ footer .github-icon {
     transition: 0.5s;
   }
 
-  .burger-btn_active .burger-btn__row{
+  .burger-btn-active .burger-btn-row{
     margin-bottom:-3px;
-  }
-
-  .burger-btn_active .burger-btn__row:nth-child(1){
-    transform:rotate(-45deg)
-  }
-  
-  .burger-btn_active .burger-btn__row:nth-child(2){
-    opacity:0
-  }
-  
-  .burger-btn_active .burger-btn__row:nth-child(3){
-    transform:rotate(45deg)
   }
 
   .main-wraper {
@@ -498,5 +487,9 @@ footer .github-icon {
 
   .header .header-name .prof {
     transform: translateY(-110%);
+  }
+
+  .code-example pre {
+    font-size: 10px;
   }
 }
