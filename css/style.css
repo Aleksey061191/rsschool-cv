@@ -129,6 +129,7 @@ a {
         
 .header-menu-item {
   margin-right: 35px;
+  font-size: 16px;
 }
 
 .header-menu-item:hover .divider-link {
@@ -153,7 +154,7 @@ a {
 }
 
 .header .header-name .name {
-    font-size: 47px;
+    font-size: 38px;
     font-weight: 600;
 }
 
@@ -278,6 +279,10 @@ footer .github-icon {
   .header-menu {
     margin: 15px 0;
   }
+
+  .header-menu-item {
+    font-size: 14px;
+  }
   
   .header .header-name .name {
     font-size: 36px;
@@ -294,12 +299,17 @@ footer .github-icon {
     font-size: 110%;
   }
 
+  .header-menu {
+    font-size: 18px;
+  }
+
   .header .header-name {
-    height: 170px;
+    max-height: 170px;
     text-align: center;
   }
 
   .header .header-name .name {
+    font-size: 32px;
     transform: translateY(-40%);
   }
 
@@ -359,9 +369,19 @@ footer .github-icon {
     position: relative;
   }
 
+  .header .header-photo {
+    width: 50%;
+    height: 100%;
+  } 
+
+  .header .header-photo img {
+    width: 100%;
+    height: 100%;
+  } 
+
   .header-menu {
     position: absolute;
-    top: -65%;
+    top: -95%;
     left: 0; 
     width: 30%;
     transition: 1s top ease-in-out;
@@ -432,7 +452,7 @@ footer .github-icon {
   }
 
   .header .header-name {
-    height: 120px;
+    height: 150px;
   }
 
   .header .header-left .name {
