@@ -328,7 +328,7 @@ footer .github-icon {
   }
 
   .header .header-photo {
-    width: 50%;
+    max-width: 50%;
     max-height: 250px;
     margin: 0 auto;
   }
